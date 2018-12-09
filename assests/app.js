@@ -35,6 +35,8 @@ $(document).ready(function () {
 		var currentTime = moment().format("LTS");
 		console.log(currentTime);
 
+		$("#currentTime").text(currentTime)
+
 
 
 
@@ -116,7 +118,6 @@ $(document).ready(function () {
 		$("#mintill").empty();
 
 	});
-	$(document).ready(function ({
-		$("#currentTime").text(currentTime)
-	})
+
+
 });	
